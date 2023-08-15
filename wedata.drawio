@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T11:52:17.848Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="x8Ebv5Ok4HFSZCt_WMpu" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T11:58:06.089Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="glJeqHkjHzJngeZFsxEK" version="21.6.5" type="github">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
     <mxGraphModel dx="6666" dy="10396" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -1566,7 +1566,7 @@
             <mxPoint x="-3181" y="1924" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uC7Hte6u2WjL_VUYtWXk-121" value="变更同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uC7Hte6u2WjL_VUYtWXk-117">
+        <mxCell id="uC7Hte6u2WjL_VUYtWXk-121" value="成员变更同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uC7Hte6u2WjL_VUYtWXk-117">
           <mxGeometry x="-0.0173" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1577,7 +1577,7 @@
             <mxPoint x="-3181" y="1924" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uC7Hte6u2WjL_VUYtWXk-122" value="变更同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uC7Hte6u2WjL_VUYtWXk-118">
+        <mxCell id="uC7Hte6u2WjL_VUYtWXk-122" value="成员变更同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uC7Hte6u2WjL_VUYtWXk-118">
           <mxGeometry x="0.0477" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1588,7 +1588,7 @@
             <mxPoint x="-3181" y="1924" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uC7Hte6u2WjL_VUYtWXk-123" value="变更同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uC7Hte6u2WjL_VUYtWXk-119">
+        <mxCell id="uC7Hte6u2WjL_VUYtWXk-123" value="成员变更同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uC7Hte6u2WjL_VUYtWXk-119">
           <mxGeometry x="-0.0078" y="5" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -1599,7 +1599,7 @@
             <mxPoint x="-3181" y="1924" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uC7Hte6u2WjL_VUYtWXk-124" value="变更同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uC7Hte6u2WjL_VUYtWXk-120">
+        <mxCell id="uC7Hte6u2WjL_VUYtWXk-124" value="成员变更同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uC7Hte6u2WjL_VUYtWXk-120">
           <mxGeometry x="-0.068" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1657,6 +1657,9 @@
         </mxCell>
         <mxCell id="uC7Hte6u2WjL_VUYtWXk-145" value="以资源组ID或应用组ID查询此ID下运维管控计算资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2201" y="1216" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uC7Hte6u2WjL_VUYtWXk-146" value="单向同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3567" y="1639.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
