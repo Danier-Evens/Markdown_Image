@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T11:47:17.330Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="q6_5JFcnwNfzkIv9eLCD" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T11:56:43.299Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mjaupnCMbkSMimOF0JWG" version="22.0.8" type="github">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="9007" dy="10645" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="7993" dy="10083" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2806,12 +2806,13 @@
           <mxGeometry x="-4848" y="5282" width="100" height="1533" as="geometry" />
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-167" value="参数校验" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="95TSYdJZvnCVTRDdwgDl-134" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="48" y="79" as="sourcePoint" />
+          <mxGeometry x="-0.0065" relative="1" as="geometry">
+            <mxPoint x="48" y="109" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="78" y="109" />
+              <mxPoint x="78" y="139" />
             </Array>
-            <mxPoint x="53" y="109.00000000000182" as="targetPoint" />
+            <mxPoint x="53" y="139.00000000000182" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -2870,15 +2871,15 @@
           <mxGeometry x="-4489" y="5280.5" width="100" height="1538.5" as="geometry" />
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-140" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
-          <mxGeometry x="-4990" y="5292" width="20" height="710" as="geometry" />
+          <mxGeometry x="-4990" y="5275" width="20" height="710" as="geometry" />
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-141" value="平台管理DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" parent="1" vertex="1">
           <mxGeometry x="-4647" y="5282" width="68" height="1534" as="geometry" />
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-144" value="提交应用组升级" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0007" width="80" relative="1" as="geometry">
-            <mxPoint x="-4981" y="5352" as="sourcePoint" />
-            <mxPoint x="-4799.2" y="5352" as="targetPoint" />
+            <mxPoint x="-4981" y="5339" as="sourcePoint" />
+            <mxPoint x="-4799.2" y="5339" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -2887,8 +2888,8 @@
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-155" value="保存升级任务" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-4800" y="5417" as="sourcePoint" />
-            <mxPoint x="-4613.5" y="5417" as="targetPoint" />
+            <mxPoint x="-4800" y="5429" as="sourcePoint" />
+            <mxPoint x="-4613.5" y="5429" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-156" value="创建库表、资源用户组" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="95TSYdJZvnCVTRDdwgDl-138" edge="1">
@@ -4198,8 +4199,19 @@
             <mxPoint x="-3256" y="6265" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-3468" y="6493" />
-              <mxPoint x="-3312" y="6496" />
+              <mxPoint x="-3322" y="6533" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pG_HBf1o1DK4Nw4i_t8B-14" value="如果不是执行任务节点则转发至任务节点" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0065" relative="1" as="geometry">
+            <mxPoint x="-4799" y="5349" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-4769" y="5349" />
+              <mxPoint x="-4769" y="5379" />
+            </Array>
+            <mxPoint x="-4794" y="5379.000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
