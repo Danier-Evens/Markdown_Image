@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T10:53:34.628Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uJfQ6f7wQOTknzad6kuh" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T11:20:28.748Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="seoOaG7VA8ffx69lXYrN" version="22.0.8" type="github">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="10553" dy="11983" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="9148" dy="10790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2815,16 +2815,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-172" value="满足以下条件之一跳过执行&lt;br&gt;1.根据任务id判断是否已在运行根据本地缓存&lt;br&gt;2.判断任务是否已升级成功" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-134">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-172" value="满足以下条件之一跳过执行&lt;br&gt;1.从本地运行中的job缓存根据任务id判断是否已在运行&lt;br&gt;2.判断任务是否已升级成功" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-134">
+          <mxGeometry x="0.0084" relative="1" as="geometry">
             <mxPoint x="51" y="388" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="81" y="418" />
             </Array>
             <mxPoint x="56" y="418.0000000000018" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-175" value="构建AppgroupUpgradeJobRunner任务线程&lt;br&gt;添加任务至本地缓存" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-134">
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-175" value="构建AppgroupUpgradeJobRunner任务线程&lt;br&gt;添加任务至本地运行中的job缓存" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-134">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="51" y="446" as="sourcePoint" />
             <Array as="points">
@@ -2853,7 +2854,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-206" value="1.修改主任务表转态为已完成&lt;br&gt;2.移除运行中任务缓存" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-134">
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-206" value="1.修改主任务表转态为已完成&lt;br&gt;2.移除本地运行中的job缓存" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-134">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="1399" as="sourcePoint" />
             <Array as="points">
@@ -2869,7 +2870,7 @@
           <mxGeometry x="-4489" y="5280.5" width="100" height="1538.5" as="geometry" />
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-140" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="-4990" y="5292" width="20" height="1521" as="geometry" />
+          <mxGeometry x="-4990" y="5292" width="20" height="710" as="geometry" />
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-141" value="平台管理DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
           <mxGeometry x="-4647" y="5282" width="68" height="1534" as="geometry" />
@@ -2921,7 +2922,7 @@
             <mxPoint x="84" y="-9.999999999998181" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-176" value="修改升级任务状态为运行中" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-157">
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-176" value="修改升级任务主表状态为运行中" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-157">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="77.9966666666669" y="285" as="sourcePoint" />
             <mxPoint x="268" y="285" as="targetPoint" />
@@ -2948,7 +2949,7 @@
             <mxPoint x="845.5" y="288" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-193" value="赋予资源到资源用户组权限" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-179" target="95TSYdJZvnCVTRDdwgDl-138">
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-193" value="对资源用户组授权资源权限" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-179" target="95TSYdJZvnCVTRDdwgDl-138">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="46.99761904761908" y="371" as="sourcePoint" />
             <mxPoint x="376.4499999999998" y="371" as="targetPoint" />
@@ -2980,7 +2981,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-198" value="删除应用组库表权限" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="95TSYdJZvnCVTRDdwgDl-179">
-          <mxGeometry x="0.0041" width="80" relative="1" as="geometry">
+          <mxGeometry x="0.0067" width="80" relative="1" as="geometry">
             <mxPoint x="46.99761904761908" y="565" as="sourcePoint" />
             <mxPoint x="406.5" y="565" as="targetPoint" />
             <mxPoint as="offset" />
@@ -3003,7 +3004,10 @@
         <mxCell id="95TSYdJZvnCVTRDdwgDl-203" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=45;height=15;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-179">
           <mxGeometry x="27" y="72" width="854" height="661" as="geometry" />
         </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-159" value="1分钟周期加载未完成的任务并提交" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-563" value="Par" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=45;height=15;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-157">
+          <mxGeometry x="29" y="149" width="403" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-159" value="1分钟周期加载pending状态的任务重新运行" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-4798.333333333333" y="5585" as="sourcePoint" />
             <mxPoint x="-4613.5" y="5585" as="targetPoint" />
@@ -3031,7 +3035,7 @@
             <mxPoint x="-4614" y="6027" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-185" value="迁移应用组库表权限到用户组(copy)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="95TSYdJZvnCVTRDdwgDl-138">
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-185" value="copy迁移应用组库表权限到用户组" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="95TSYdJZvnCVTRDdwgDl-138">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-4799.038461538461" y="6063" as="sourcePoint" />
             <mxPoint x="-4465" y="6063" as="targetPoint" />
@@ -3045,8 +3049,8 @@
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-207" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-4797" y="5860" as="sourcePoint" />
-            <mxPoint x="-4980.833333333333" y="5860" as="targetPoint" />
+            <mxPoint x="-4797" y="5867" as="sourcePoint" />
+            <mxPoint x="-4980.833333333333" y="5867" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-291" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="95TSYdJZvnCVTRDdwgDl-208" target="95TSYdJZvnCVTRDdwgDl-290">
