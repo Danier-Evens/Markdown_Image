@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T11:44:14.144Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="D_P2BIexXTxXVMsyNutO" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T11:47:17.330Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="q6_5JFcnwNfzkIv9eLCD" version="22.0.8" type="github">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="9268" dy="10790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="9007" dy="10645" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3138,15 +3138,10 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-233" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="95TSYdJZvnCVTRDdwgDl-232" target="95TSYdJZvnCVTRDdwgDl-209" edge="1">
+        <mxCell id="pG_HBf1o1DK4Nw4i_t8B-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="95TSYdJZvnCVTRDdwgDl-232" target="pG_HBf1o1DK4Nw4i_t8B-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-234" value="补齐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="95TSYdJZvnCVTRDdwgDl-233" vertex="1" connectable="0">
-          <mxGeometry x="0.0777" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-232" value="查询应用组服务地址&lt;br&gt;hiveserver\hiveserver2\hdfs\supersql\livy\ons" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-232" value="调ups接口查询应用组服务地址&lt;br&gt;hiveserver\hiveserver2\hdfs\supersql\livy\ons" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3607" y="6220" width="276.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-289" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="95TSYdJZvnCVTRDdwgDl-235" target="95TSYdJZvnCVTRDdwgDl-237" edge="1">
@@ -4170,6 +4165,41 @@
         <mxCell id="pG_HBf1o1DK4Nw4i_t8B-5" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pG_HBf1o1DK4Nw4i_t8B-4">
           <mxGeometry x="-0.0366" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pG_HBf1o1DK4Nw4i_t8B-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pG_HBf1o1DK4Nw4i_t8B-6" target="pG_HBf1o1DK4Nw4i_t8B-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pG_HBf1o1DK4Nw4i_t8B-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pG_HBf1o1DK4Nw4i_t8B-9">
+          <mxGeometry x="-0.2651" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pG_HBf1o1DK4Nw4i_t8B-6" value="是否正常返回" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3527.5" y="6314" width="118.5" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="pG_HBf1o1DK4Nw4i_t8B-7" value="根据应用组查ups库服务地址&lt;br&gt;hiveserver\hiveserver2\hdfs\supersql\livy\ons" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3606.62" y="6410.5" width="276.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pG_HBf1o1DK4Nw4i_t8B-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pG_HBf1o1DK4Nw4i_t8B-6" target="95TSYdJZvnCVTRDdwgDl-209">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3588" y="6414" as="sourcePoint" />
+            <mxPoint x="-3538" y="6364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pG_HBf1o1DK4Nw4i_t8B-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pG_HBf1o1DK4Nw4i_t8B-11">
+          <mxGeometry x="-0.0929" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pG_HBf1o1DK4Nw4i_t8B-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="pG_HBf1o1DK4Nw4i_t8B-7" target="95TSYdJZvnCVTRDdwgDl-209">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3588" y="6414" as="sourcePoint" />
+            <mxPoint x="-3256" y="6265" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-3468" y="6493" />
+              <mxPoint x="-3312" y="6496" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
