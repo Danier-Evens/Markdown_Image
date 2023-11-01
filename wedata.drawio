@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T09:24:42.754Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="DC1tDA0YvonpKnT3VUi7" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T10:29:01.746Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Zw8c6dkQIQzHtaDJ1J6Z" version="22.0.8" type="github">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="8760" dy="11586" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="9115" dy="11288" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3866,6 +3866,182 @@
         <mxCell id="95TSYdJZvnCVTRDdwgDl-443" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="95TSYdJZvnCVTRDdwgDl-442">
           <mxGeometry x="-0.6692" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-477" value="appgroup_upgrade_job&lt;br&gt;升级任务主表" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5340" y="7588.62" width="345.3888888888887" height="322" as="geometry">
+            <mxRectangle x="-4583" y="7009" width="65" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-478" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-477">
+          <mxGeometry y="40" width="345.3888888888887" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-479" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-478">
+          <mxGeometry width="29.83333333333394" height="25" as="geometry">
+            <mxRectangle width="29.83333333333394" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-480" value="id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-478">
+          <mxGeometry x="29.83333333333394" width="315.55555555555475" height="25" as="geometry">
+            <mxRectangle width="315.55555555555475" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-487" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-477">
+          <mxGeometry y="65" width="345.3888888888887" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-488" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-487">
+          <mxGeometry width="29.83333333333394" height="257" as="geometry">
+            <mxRectangle width="29.83333333333394" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-489" value="user_name&lt;br&gt;创建人&lt;br&gt;&lt;br&gt;workspace_id&lt;br&gt;项目ID&lt;br&gt;&lt;br&gt;status&amp;nbsp;&lt;br&gt;状态：0-pending，1-running，2-failed，3-success&lt;br&gt;&lt;br&gt;error_msg&lt;br&gt;错误信息&lt;br&gt;&lt;br&gt;create_time&lt;br&gt;&lt;br&gt;update_time" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-487">
+          <mxGeometry x="29.83333333333394" width="315.55555555555475" height="257" as="geometry">
+            <mxRectangle width="315.55555555555475" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-507" value="appgroup_upgrade_job_appgroup_detail&lt;br&gt;升级任务明显" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4768" y="7516.12" width="344.00111111111164" height="467" as="geometry">
+            <mxRectangle x="-4583" y="7009" width="65" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-508" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-507">
+          <mxGeometry y="40" width="344.00111111111164" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-509" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-508">
+          <mxGeometry width="29.83333333333394" height="25" as="geometry">
+            <mxRectangle width="29.83333333333394" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-510" value="id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-508">
+          <mxGeometry x="29.83333333333394" width="314.1677777777777" height="25" as="geometry">
+            <mxRectangle width="314.1677777777777" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-511" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-507">
+          <mxGeometry y="65" width="344.00111111111164" height="402" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-512" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-511">
+          <mxGeometry width="29.83333333333394" height="402" as="geometry">
+            <mxRectangle width="29.83333333333394" height="402" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-513" value="appgroup_upgrade_job_id&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;任务主表ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;appgroup_name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;应用组ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;usergroup_name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;库表用户组ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;resource_usergroup_name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;资源用户组ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;resourcegroup_name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;资源组ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;status&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;状态：0-pending，1-running，2-failed，3-success&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;error_msg&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;错误信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;create_time&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update_time&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-511">
+          <mxGeometry x="29.83333333333394" width="314.1677777777777" height="402" as="geometry">
+            <mxRectangle width="314.1677777777777" height="402" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-514" value="appgroup_upgrade_job_member_role_detail&lt;br&gt;升级任务成员变更" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5913" y="7580" width="345.3888888888887" height="339.2311111111121" as="geometry">
+            <mxRectangle x="-4583" y="7009" width="65" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-515" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-514">
+          <mxGeometry y="40" width="345.3888888888887" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-516" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-515">
+          <mxGeometry width="29.83333333333394" height="25" as="geometry">
+            <mxRectangle width="29.83333333333394" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-517" value="id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-515">
+          <mxGeometry x="29.83333333333394" width="315.55555555555475" height="25" as="geometry">
+            <mxRectangle width="315.55555555555475" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-518" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-514">
+          <mxGeometry y="65" width="345.3888888888887" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-519" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-518">
+          <mxGeometry width="29.83333333333394" height="274" as="geometry">
+            <mxRectangle width="29.83333333333394" height="274" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-520" value="appgroup_upgrade_job_id&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;任务主表ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;user_name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;用户&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;sys_role_id&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;角色ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;is_delete&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;是否已删除，1-未删除 2-已删除&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;create_time&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update_time&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-518">
+          <mxGeometry x="29.83333333333394" width="315.55555555555475" height="274" as="geometry">
+            <mxRectangle width="315.55555555555475" height="274" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-521" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95TSYdJZvnCVTRDdwgDl-487" target="95TSYdJZvnCVTRDdwgDl-511">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-4892" y="8163" as="sourcePoint" />
+            <mxPoint x="-4792" y="8063" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-522" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95TSYdJZvnCVTRDdwgDl-487" target="95TSYdJZvnCVTRDdwgDl-518">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-4892" y="8163" as="sourcePoint" />
+            <mxPoint x="-4792" y="8063" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-5652" y="7909" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-523" value="resource_group&lt;br&gt;资源组表" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5796" y="8299" width="344.00111111111164" height="917" as="geometry">
+            <mxRectangle x="-4583" y="7009" width="65" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-524" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-523">
+          <mxGeometry y="40" width="344.00111111111164" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-525" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-524">
+          <mxGeometry width="29.83333333333394" height="25" as="geometry">
+            <mxRectangle width="29.83333333333394" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-526" value="id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-524">
+          <mxGeometry x="29.83333333333394" width="314.1677777777777" height="25" as="geometry">
+            <mxRectangle width="314.1677777777777" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-527" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-523">
+          <mxGeometry y="65" width="344.00111111111164" height="852" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-528" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-527">
+          <mxGeometry width="29.83333333333394" height="852" as="geometry">
+            <mxRectangle width="29.83333333333394" height="852" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-529" value="&lt;div&gt;group_source_type&lt;/div&gt;&lt;div&gt;资源组来源：1-默认创建，2-应用组升级，3-体验&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;group_name&lt;/div&gt;&lt;div&gt;资源组名称(ID)命名规则: g_bg_tdw产品标识_自定义内容&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;group_alias&lt;/div&gt;&lt;div&gt;资源组别名&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;group_describe&lt;/div&gt;&lt;div&gt;资源组描述&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;group_bg_id&lt;/div&gt;&lt;div&gt;事业群ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;group_bg_identifier&lt;/div&gt;&lt;div&gt;事业群标识&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;group_product_id&lt;/div&gt;&lt;div&gt;产品ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;group_product_identifier&lt;/div&gt;&lt;div&gt;TDW产品英文缩写标识&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;meta_cluster_identifier&lt;/div&gt;&lt;div&gt;元数据集群名标识&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;hdfsserver&lt;/div&gt;根据&lt;span style=&quot;background-color: initial;&quot;&gt;元数据，bg查询得到&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;hiveserver&lt;/div&gt;&lt;div&gt;根据元数据，bg查询得到&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;hiveserver2&lt;/div&gt;&lt;div&gt;根据元数据，bg查询得到&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;oms&lt;/div&gt;&lt;div&gt;根据元数据，bg查询得到&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;supersql&lt;/div&gt;&lt;div&gt;根据元数据，bg查询得到&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;livy&lt;/div&gt;&lt;div&gt;根据元数据，bg查询得到&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;presto&lt;/div&gt;&lt;div&gt;根据元数据，bg查询得到&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;business_id&lt;/div&gt;&lt;div&gt;业务ID，一般为项目ID。&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;br&gt;create_time&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update_time&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-527">
+          <mxGeometry x="29.83333333333394" width="314.1677777777777" height="852" as="geometry">
+            <mxRectangle width="314.1677777777777" height="852" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-530" value="resource&lt;br&gt;资源表" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5137" y="8315.66" width="344.00111111111164" height="884" as="geometry">
+            <mxRectangle x="-4583" y="7009" width="65" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-531" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-530">
+          <mxGeometry y="40" width="344.00111111111164" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-532" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-531">
+          <mxGeometry width="29.83333333333394" height="25" as="geometry">
+            <mxRectangle width="29.83333333333394" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-533" value="id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-531">
+          <mxGeometry x="29.83333333333394" width="314.1677777777777" height="25" as="geometry">
+            <mxRectangle width="314.1677777777777" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-534" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-530">
+          <mxGeometry y="65" width="344.00111111111164" height="819" as="geometry" />
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-535" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-534">
+          <mxGeometry width="29.83333333333394" height="819" as="geometry">
+            <mxRectangle width="29.83333333333394" height="819" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-536" value="&lt;div&gt;resource_id&lt;/div&gt;&lt;div&gt;资源ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;resource_type&lt;/div&gt;&lt;div&gt;资源类型：&lt;/div&gt;&lt;div&gt;CPU_OFFLINE-离线计算资源、CPU_OCEANUS_REALTIME-实时计算资源、&lt;/div&gt;&lt;div&gt;COLLECT-采集资源、&lt;/div&gt;&lt;div&gt;PRESTO-Presto计算资源&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;resource_name&lt;/div&gt;&lt;div&gt;资源名&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;resource_describe&lt;/div&gt;&lt;div&gt;资源描述&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;resource_group_name&lt;/div&gt;&lt;div&gt;资源组ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;resource_group_id&lt;/div&gt;&lt;div&gt;resource_group表主键id&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ops_resource_id&lt;/div&gt;&lt;div&gt;运维侧的资源ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ops_resource_name&lt;/div&gt;&lt;div&gt;运维侧的资源名&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;resource_billing_mode&lt;/div&gt;&lt;div&gt;计费模式：-1-无，1-固定配额，2-弹性配额&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;resource_quota_mode&lt;/div&gt;&lt;div&gt;配额模式：-1-无，1-高保障模式，2-集约模式，3-平衡模式&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;resource_quota&lt;/div&gt;&lt;div&gt;资源配额，json字符串&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;is_experience&lt;/div&gt;&lt;div&gt;是否是体验资源，1:不是，2:是，默认为1&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;expired_status&lt;/div&gt;&lt;div&gt;过期状态，针对试用资源。-1:无此业务逻辑，1:未到期，2:即将到期，3:已到期， 默认-1&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;expired_time&lt;/div&gt;&lt;div&gt;过期时间，如果expired_status值不为-1，此字段才有意义&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;create_time&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;创建时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update_time&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;更新时间&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="95TSYdJZvnCVTRDdwgDl-534">
+          <mxGeometry x="29.83333333333394" width="314.1677777777777" height="819" as="geometry">
+            <mxRectangle width="314.1677777777777" height="819" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-537" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95TSYdJZvnCVTRDdwgDl-527" target="95TSYdJZvnCVTRDdwgDl-534">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-5260" y="8792" as="sourcePoint" />
+            <mxPoint x="-5160" y="8692" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
