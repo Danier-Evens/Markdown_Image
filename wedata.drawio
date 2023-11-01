@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T11:40:59.481Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="nI_KhrRsb8CV5YZJbgsN" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T11:44:14.144Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="D_P2BIexXTxXVMsyNutO" version="22.0.8" type="github">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
     <mxGraphModel dx="9268" dy="10790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -3146,7 +3146,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="95TSYdJZvnCVTRDdwgDl-232" value="按bg\元数据查询服务地址&lt;br&gt;hiveserver\hiveserver2\hdfs\supersql\livy\ons" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="95TSYdJZvnCVTRDdwgDl-232" value="查询应用组服务地址&lt;br&gt;hiveserver\hiveserver2\hdfs\supersql\livy\ons" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3607" y="6220" width="276.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="95TSYdJZvnCVTRDdwgDl-289" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="95TSYdJZvnCVTRDdwgDl-235" target="95TSYdJZvnCVTRDdwgDl-237" edge="1">
