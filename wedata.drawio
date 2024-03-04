@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T08:05:02.488Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0-8Uh5hJdp_3t4RJkbj7" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T08:05:41.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7P-bQvZo_sDCWkCc7e05" version="23.1.5" type="github">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
     <mxGraphModel dx="9136" dy="10182" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -4310,9 +4310,6 @@
         <mxCell id="2zEe6V4uuAwaE9LpTEZ--39" value="数仓存储库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-5491" y="13701" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2zEe6V4uuAwaE9LpTEZ--41" value="租户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-          <mxGeometry x="-6260" y="13608" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="2zEe6V4uuAwaE9LpTEZ--42" value="组织结构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-5906" y="13359" width="120" height="60" as="geometry" />
         </mxCell>
@@ -4336,12 +4333,6 @@
         </mxCell>
         <mxCell id="2zEe6V4uuAwaE9LpTEZ--50" value="pulsar集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-5935" y="13797" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2zEe6V4uuAwaE9LpTEZ--55" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2zEe6V4uuAwaE9LpTEZ--41" target="2zEe6V4uuAwaE9LpTEZ--37" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-6179" y="13731" as="sourcePoint" />
-            <mxPoint x="-6129" y="13681" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="2zEe6V4uuAwaE9LpTEZ--56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2zEe6V4uuAwaE9LpTEZ--37" target="2zEe6V4uuAwaE9LpTEZ--42" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -4396,9 +4387,6 @@
             <mxPoint x="-5733" y="13698" as="sourcePoint" />
             <mxPoint x="-5683" y="13648" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="2zEe6V4uuAwaE9LpTEZ--68" value="1:n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-6101" y="13624" width="28" height="12" as="geometry" />
         </mxCell>
         <mxCell id="2zEe6V4uuAwaE9LpTEZ--69" value="1:n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-5667" y="13536" width="28" height="12" as="geometry" />
