@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T12:23:56.531Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qfIM_nyxyH1lXkeAsnD5" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T12:24:56.816Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zOI9rwr8Q3CI98J88Kpo" version="23.1.5" type="github">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
     <mxGraphModel dx="9136" dy="10182" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2zEe6V4uuAwaE9LpTEZ--34" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2zEe6V4uuAwaE9LpTEZ--34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-5128.5" y="12628" width="915" height="498" as="geometry" />
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-216" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
@@ -4931,8 +4931,8 @@
         <mxCell id="tbgXF23IifoTi1w6pzor-215" value="数据资产" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-4381.75" y="12707" width="87" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tbgXF23IifoTi1w6pzor-217" value="&lt;b&gt;底层系统&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="-4914.75" y="12998" width="66" height="26" as="geometry" />
+        <mxCell id="tbgXF23IifoTi1w6pzor-217" value="&lt;b&gt;天穹底层系统&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="-4926.75" y="12998" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-219" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
