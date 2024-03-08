@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T09:13:56.748Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="K7kXcuDAi0J9D2-I8TC7" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T09:49:02.159Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IXhdOo5MZe3mtypaaziK" version="23.1.5" type="github">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
     <mxGraphModel dx="9136" dy="10182" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tbgXF23IifoTi1w6pzor-344" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-6403" y="18379" width="373.5" height="521" as="geometry" />
+        </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-317" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-5746" y="17683" width="311" height="225" as="geometry" />
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-316" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-6126" y="17683" width="301.5" height="225" as="geometry" />
+          <mxGeometry x="-6256" y="17683" width="431.5" height="225" as="geometry" />
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-313" value="" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-5953" y="18012" width="337" height="224" as="geometry" />
@@ -5270,7 +5273,7 @@
         <mxCell id="tbgXF23IifoTi1w6pzor-311" value="应用组-A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-5585" y="17709" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tbgXF23IifoTi1w6pzor-314" value="保存绑定应用组和资源关系" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="tbgXF23IifoTi1w6pzor-314" value="变更绑定应用组和资源关系" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-5972.5" y="17794" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-315" value="通知&lt;br&gt;1、审批流回调&lt;br&gt;2、消息&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -5299,7 +5302,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-320" value="控制台" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6130" y="17683" width="60" height="30" as="geometry" />
+          <mxGeometry x="-6256" y="17685" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-321" value="安全中心" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5746" y="17683" width="60" height="30" as="geometry" />
@@ -5323,6 +5326,150 @@
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-329" value="2.2、持久化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tbgXF23IifoTi1w6pzor-327">
           <mxGeometry x="-0.0103" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-330" value="定时任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-6233" y="17803" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-331" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbgXF23IifoTi1w6pzor-313" target="tbgXF23IifoTi1w6pzor-330">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5707" y="17981" as="sourcePoint" />
+            <mxPoint x="-5657" y="17931" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-333" value="3.1、获取应用组-计算资源关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tbgXF23IifoTi1w6pzor-331">
+          <mxGeometry x="-0.0147" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-332" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tbgXF23IifoTi1w6pzor-330">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5707" y="17981" as="sourcePoint" />
+            <mxPoint x="-6016" y="17833" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-334" value="3.2、增量变更" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tbgXF23IifoTi1w6pzor-332">
+          <mxGeometry x="-0.0389" y="-1" relative="1" as="geometry">
+            <mxPoint x="-17" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-336" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5906" y="18381" width="345" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-363" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tbgXF23IifoTi1w6pzor-337" target="tbgXF23IifoTi1w6pzor-338">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-337" value="应用组-A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-5710" y="18451" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-338" value="通知&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;1、审批流回调&lt;br&gt;2、消息&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#0050ef;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-5873" y="18451" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-339" value="安全中心" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5895.5" y="18381" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-340" value="绑定应用组-A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-6217" y="18616" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-341" value="变更绑定应用组和资源关系" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-6217" y="18475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-342" value="控制台" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6402" y="18381" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-343" value="定时任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-6217" y="18764" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-345" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5898.5" y="18676" width="337" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-346" value="应用组-A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-5887.5" y="18766" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-347" value="离线计算资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-5702.5" y="18701" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-348" value="实时计算资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-5702.5" y="18820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-349" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbgXF23IifoTi1w6pzor-346" target="tbgXF23IifoTi1w6pzor-347">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5468.5" y="18610" as="sourcePoint" />
+            <mxPoint x="-5418.5" y="18560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-350" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tbgXF23IifoTi1w6pzor-348">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5765.5" y="18796" as="sourcePoint" />
+            <mxPoint x="-5692.5" y="18741" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-351" value="tdwhelper运维中心" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5898.5" y="18679" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-352" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.568;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbgXF23IifoTi1w6pzor-337" target="tbgXF23IifoTi1w6pzor-345">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5834" y="18457" as="sourcePoint" />
+            <mxPoint x="-5784" y="18407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-353" value="1.1、申请、调配计算资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tbgXF23IifoTi1w6pzor-352">
+          <mxGeometry x="0.015" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-354" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbgXF23IifoTi1w6pzor-338" target="tbgXF23IifoTi1w6pzor-341">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5834" y="18539" as="sourcePoint" />
+            <mxPoint x="-5784" y="18489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-355" value="1.2、通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tbgXF23IifoTi1w6pzor-354">
+          <mxGeometry x="-0.0125" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-356" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbgXF23IifoTi1w6pzor-340" target="tbgXF23IifoTi1w6pzor-345">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5834" y="18539" as="sourcePoint" />
+            <mxPoint x="-5784" y="18489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-360" value="2.1、申请、调配计算资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tbgXF23IifoTi1w6pzor-356">
+          <mxGeometry x="0.0506" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-357" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbgXF23IifoTi1w6pzor-340" target="tbgXF23IifoTi1w6pzor-341">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5834" y="18679" as="sourcePoint" />
+            <mxPoint x="-5784" y="18629" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-361" value="2.2、持久化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tbgXF23IifoTi1w6pzor-357">
+          <mxGeometry x="-0.0036" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-358" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbgXF23IifoTi1w6pzor-345" target="tbgXF23IifoTi1w6pzor-343">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5834" y="18679" as="sourcePoint" />
+            <mxPoint x="-5784" y="18629" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-362" value="3.1、获取应用组-计算资源关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tbgXF23IifoTi1w6pzor-358">
+          <mxGeometry x="-0.1005" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbgXF23IifoTi1w6pzor-359" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;3.2、增量变更&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbgXF23IifoTi1w6pzor-343" target="tbgXF23IifoTi1w6pzor-341">
+          <mxGeometry x="0.0886" y="2" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5834" y="18679" as="sourcePoint" />
+            <mxPoint x="-5784" y="18629" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-6351" y="18646" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
