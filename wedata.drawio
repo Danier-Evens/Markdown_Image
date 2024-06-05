@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T12:56:22.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="TQm_NJad62opm-I88sjP" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T05:56:25.760Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="F9wwJmatoDITJum_ZG6t" version="24.4.9" type="github">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="9741" dy="10313" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="10375" dy="10718" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HGqTLmWLEBpRApgykbfi-246" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5933" y="19583" width="1148" height="338" as="geometry" />
+        </mxCell>
+        <mxCell id="HGqTLmWLEBpRApgykbfi-243" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5905" y="19767" width="1046" height="104" as="geometry" />
+        </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-344" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-6403" y="18379" width="373.5" height="521" as="geometry" />
         </mxCell>
@@ -5907,6 +5913,21 @@
         </mxCell>
         <mxCell id="HGqTLmWLEBpRApgykbfi-230" value="feign" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4719.52" y="16738.5" width="38.5" height="13.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HGqTLmWLEBpRApgykbfi-238" value="实时计算固定配额" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-5890" y="19789" width="728" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGqTLmWLEBpRApgykbfi-241" value="实时同步按量配额" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-5160.25" y="19789" width="288" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGqTLmWLEBpRApgykbfi-244" value="集群队列: yarn 或 k8s" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5495" y="19658" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HGqTLmWLEBpRApgykbfi-245" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-5899" y="19702" width="1034" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="HGqTLmWLEBpRApgykbfi-247" value="物理计算集群" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5933" y="19586" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
