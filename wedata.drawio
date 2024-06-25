@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T16:20:58.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="lbnMG4sHUPTTDECyj65c" version="24.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-25T16:22:29.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="nh0VH4eyPAv-8Ym7D5tw" version="24.6.2" type="github" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
     <mxGraphModel dx="11866" dy="10393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -6800,7 +6800,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5aykQ4w4cYbnBh46KXXT-323" value="Par" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=45;height=15;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#990000;" vertex="1" parent="1">
-          <mxGeometry x="-9800" y="5879" width="588" height="83" as="geometry" />
+          <mxGeometry x="-9801" y="5830" width="588" height="83" as="geometry" />
         </mxCell>
         <mxCell id="5aykQ4w4cYbnBh46KXXT-324" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-323">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -6813,25 +6813,14 @@
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5aykQ4w4cYbnBh46KXXT-321" value="审批流审批完成" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0065" relative="1" as="geometry">
-            <mxPoint x="-9779" y="5821" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-9718" y="5821" />
-              <mxPoint x="-9718" y="5845" />
-            </Array>
-            <mxPoint x="-9779" y="5845" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5aykQ4w4cYbnBh46KXXT-327" value="驳回邮件通知" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-9777.17" y="5940" as="sourcePoint" />
-            <mxPoint x="-9961.003333333332" y="5940" as="targetPoint" />
+            <mxPoint x="-9778.17" y="5891" as="sourcePoint" />
+            <mxPoint x="-9962.003333333332" y="5891" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5aykQ4w4cYbnBh46KXXT-328" value="Par" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=45;height=15;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#990000;" vertex="1" parent="1">
-          <mxGeometry x="-9801" y="6015" width="769" height="258" as="geometry" />
+          <mxGeometry x="-9801" y="5948" width="769" height="258" as="geometry" />
         </mxCell>
         <mxCell id="5aykQ4w4cYbnBh46KXXT-329" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-328">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -6908,8 +6897,8 @@
         </mxCell>
         <mxCell id="5aykQ4w4cYbnBh46KXXT-344" value="通过邮件通知" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-9778.17" y="6259" as="sourcePoint" />
-            <mxPoint x="-9962.003333333332" y="6259" as="targetPoint" />
+            <mxPoint x="-9778.17" y="6192" as="sourcePoint" />
+            <mxPoint x="-9962.003333333332" y="6192" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
