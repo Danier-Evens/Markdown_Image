@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T15:13:53.985Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_EOEVZ8rH1By73J9pYYt" version="24.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-25T15:20:29.026Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="sJa6j_AVe4QmYONz5_Nr" version="24.6.2" type="github" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="9866" dy="10393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="10375" dy="10718" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5096,16 +5096,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-269" value="平台管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="-6764" y="5275" width="100" height="1533" as="geometry" />
+          <mxGeometry x="-6764" y="5275" width="100" height="1355" as="geometry" />
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-270" value="参数校验" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="tbgXF23IifoTi1w6pzor-269" edge="1">
           <mxGeometry x="-0.0065" relative="1" as="geometry">
-            <mxPoint x="48" y="109" as="sourcePoint" />
+            <mxPoint x="48" y="87" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="78" y="109" />
-              <mxPoint x="78" y="139" />
+              <mxPoint x="78" y="87" />
+              <mxPoint x="78" y="117" />
             </Array>
-            <mxPoint x="53" y="139.00000000000182" as="targetPoint" />
+            <mxPoint x="53" y="117.00000000000182" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -5139,13 +5139,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-277" value="安全中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="-6405" y="5273.5" width="100" height="1538.5" as="geometry" />
+          <mxGeometry x="-6405" y="5273.5" width="100" height="1356.5" as="geometry" />
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-278" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
           <mxGeometry x="-6906" y="5268" width="20" height="710" as="geometry" />
         </mxCell>
-        <mxCell id="tbgXF23IifoTi1w6pzor-279" value="平台管理DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" parent="1" vertex="1">
-          <mxGeometry x="-6563" y="5275" width="68" height="1534" as="geometry" />
+        <mxCell id="tbgXF23IifoTi1w6pzor-279" value="控制台DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" parent="1" vertex="1">
+          <mxGeometry x="-6563" y="5275" width="68" height="1358" as="geometry" />
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-280" value="提交应用组绑定" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0007" width="80" relative="1" as="geometry">
@@ -5200,8 +5200,8 @@
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-295" value="新增项目和库关系" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="tbgXF23IifoTi1w6pzor-301" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="20.497619047619082" y="61" as="sourcePoint" />
-            <mxPoint x="201" y="61" as="targetPoint" />
+            <mxPoint x="23.997619047619082" y="79" as="sourcePoint" />
+            <mxPoint x="204.5" y="79" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -5232,7 +5232,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tbgXF23IifoTi1w6pzor-274" value="1. 推送应用组升级消息&lt;br&gt;2. 创建OC项目" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="tbgXF23IifoTi1w6pzor-301" edge="1">
+        <mxCell id="tbgXF23IifoTi1w6pzor-274" value="1. 推送应用组绑定记录消息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="tbgXF23IifoTi1w6pzor-301" edge="1">
           <mxGeometry x="0.0073" relative="1" as="geometry">
             <mxPoint x="25" y="385" as="sourcePoint" />
             <Array as="points">
@@ -5275,17 +5275,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-6713" y="5860" as="sourcePoint" />
             <mxPoint x="-6896.833333333333" y="5860" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tbgXF23IifoTi1w6pzor-310" value="如果不是执行任务节点则转发至任务节点" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0065" relative="1" as="geometry">
-            <mxPoint x="-6715" y="5342" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-6685" y="5342" />
-              <mxPoint x="-6685" y="5372" />
-            </Array>
-            <mxPoint x="-6710" y="5372.000000000002" as="targetPoint" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tbgXF23IifoTi1w6pzor-311" value="应用组-A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -6455,6 +6444,17 @@
               <mxPoint x="-1232" y="8328" />
               <mxPoint x="-1232" y="8660" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-87" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-6355.5" y="5983" as="sourcePoint" />
+            <mxPoint x="-6710" y="5983" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-88" value="查询应用组-库列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-87">
+          <mxGeometry x="0.0127" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
