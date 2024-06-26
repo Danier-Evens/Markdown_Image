@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T15:15:10.703Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="arQ_hc7iCyyjIOkm05J4" version="24.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-26T15:19:10.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="M3EcQAE11FI6UPbbkH4z" version="24.6.2" type="github" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
     <mxGraphModel dx="14177" dy="10592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -6920,7 +6920,7 @@
         <mxCell id="5aykQ4w4cYbnBh46KXXT-397" value="控制台DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
           <mxGeometry x="-11451" y="5261" width="68" height="1170" as="geometry" />
         </mxCell>
-        <mxCell id="5aykQ4w4cYbnBh46KXXT-398" value="提交资源申请" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-398" value="提交数据库申请" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0007" width="80" relative="1" as="geometry">
             <mxPoint x="-11798" y="5318" as="sourcePoint" />
             <mxPoint x="-11616.2" y="5318" as="targetPoint" />
