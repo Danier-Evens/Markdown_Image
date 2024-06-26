@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T15:19:10.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="M3EcQAE11FI6UPbbkH4z" version="24.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-26T15:31:43.416Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="FyjYsClCAJpZ_xGqlsOg" version="24.6.2" type="github" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="14177" dy="10592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="15777" dy="10592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7199,6 +7199,190 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-9778.17" y="6266" as="sourcePoint" />
             <mxPoint x="-9962.003333333332" y="6266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-512" value="控制台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-13302" y="5255.5" width="100" height="1009.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-513" value="参数校验" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-512">
+          <mxGeometry x="-0.0065" relative="1" as="geometry">
+            <mxPoint x="48" y="97" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="78" y="97" />
+              <mxPoint x="78" y="127" />
+            </Array>
+            <mxPoint x="53" y="127.00000000000182" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-514" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="-13444" y="5248.5" width="20" height="1016.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-515" value="控制台DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="-13088" y="5255.5" width="68" height="1013.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-516" value="用户成员变更" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0007" width="80" relative="1" as="geometry">
+            <mxPoint x="-13435" y="5312.5" as="sourcePoint" />
+            <mxPoint x="-13253.2" y="5312.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-517" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-13252.17" y="5570" as="sourcePoint" />
+            <mxPoint x="-13436.003333333332" y="5570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-518" value="安全中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-12937" y="5252.5" width="100" height="1024.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-519" value="Pulsar" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="-12770" y="5254.25" width="68" height="1024.75" as="geometry" />
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-520" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-13250.996470588234" y="5413.5" as="sourcePoint" />
+            <mxPoint x="-13050" y="5414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-521" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-520">
+          <mxGeometry x="-0.0278" y="4" relative="1" as="geometry">
+            <mxPoint x="25" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-522" value="写入项目用户表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-520">
+          <mxGeometry x="-0.0045" y="3" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-560" value="Oceanus" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-12645" y="5255.5" width="100" height="1028.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-565" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-13252.996470588234" y="5468" as="sourcePoint" />
+            <mxPoint x="-13052" y="5468.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-566" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-565">
+          <mxGeometry x="-0.0278" y="4" relative="1" as="geometry">
+            <mxPoint x="25" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-567" value="写入项目用户角色表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-565">
+          <mxGeometry x="-0.0045" y="3" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-569" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="5aykQ4w4cYbnBh46KXXT-519">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-13254.996470588234" y="5525" as="sourcePoint" />
+            <mxPoint x="-13054" y="5525.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-570" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-569">
+          <mxGeometry x="-0.0278" y="4" relative="1" as="geometry">
+            <mxPoint x="25" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-571" value="发送成员变更通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-569">
+          <mxGeometry x="-0.0045" y="3" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-575" value="AsyncNotifyManager&lt;div&gt;全员类型权限组成员同步变更，异步执行。&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=248;height=32;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="-13262" y="5618" width="682" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-583" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-575">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209.17000000000007" y="76" as="sourcePoint" />
+            <mxPoint x="10.003333333334012" y="76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-591" value="查询项目全员类型权限组" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-583">
+          <mxGeometry x="0.0293" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-584" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-575" source="5aykQ4w4cYbnBh46KXXT-518">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="211.17000000000007" y="126" as="sourcePoint" />
+            <mxPoint x="12.003333333334012" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-592" value="查询全员类型权限组成员列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-584">
+          <mxGeometry x="0.0087" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-585" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-575">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="12.003333333334012" y="173" as="sourcePoint" />
+            <mxPoint x="377.6700000000001" y="173" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-593" value="同步有变更的用户到权限组" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-585">
+          <mxGeometry x="0.01" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-586" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-575" source="5aykQ4w4cYbnBh46KXXT-518">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="207.17000000000007" y="221" as="sourcePoint" />
+            <mxPoint x="8.003333333334012" y="221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-594" value="结束" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-586">
+          <mxGeometry x="-0.075" y="1" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-582" value="AsyncNotifyManager&lt;div&gt;OC项目成员变更，异步执行。&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=194;height=26;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="-13267" y="5981" width="694" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-590" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-582">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="217.17000000000007" y="64.00000000000007" as="sourcePoint" />
+            <mxPoint x="18.003333333334012" y="64.00000000000007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-595" value="查询项目关联OC项目" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-590">
+          <mxGeometry x="0.0293" y="-5" relative="1" as="geometry">
+            <mxPoint x="1" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-587" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-582">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="671.5" y="106" as="sourcePoint" />
+            <mxPoint x="17.003333333334012" y="106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-596" value="查询OC项目已有项目成员列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-587">
+          <mxGeometry x="-0.0074" y="-1" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-597" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-582">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15.003333333334012" y="154" as="sourcePoint" />
+            <mxPoint x="671.5" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-598" value="同步有变更的用户到OC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-597">
+          <mxGeometry x="0.01" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-599" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="5aykQ4w4cYbnBh46KXXT-582">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="671.5" y="203" as="sourcePoint" />
+            <mxPoint x="15.003333333334012" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aykQ4w4cYbnBh46KXXT-600" value="结束" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5aykQ4w4cYbnBh46KXXT-599">
+          <mxGeometry x="-0.075" y="1" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
