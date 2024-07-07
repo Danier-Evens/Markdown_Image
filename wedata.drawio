@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T10:09:37.060Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="hrRCaDiBXBVwYqatudd6" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-07T10:11:49.698Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tZ4PXP4krUELdqYirtlB" version="24.6.4" type="github" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="17209" dy="10485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="17575" dy="10718" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8459,6 +8459,9 @@
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-221" value="3.资源授权 to 权限组" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-6990" y="20350" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-224" value="1、权限组基本信息维护&lt;div style=&quot;font-size: 24px;&quot;&gt;2、权限组授权 权限主体&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-7808" y="19994" width="344" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
