@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T15:24:22.815Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="PraSNlNEwRXPiSF3Xpz6" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-07T15:34:51.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ARFdCm_MYA6k3Ks5B3kk" version="24.6.4" type="github" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="17377" dy="10592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="18931" dy="11586" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8460,11 +8460,11 @@
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-221" value="3.资源授权 to 权限组" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-6990" y="20350" width="132" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-224" value="1、权限组基本信息维护&lt;div style=&quot;font-size: 24px;&quot;&gt;2、权限组授权 权限主体&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-7808" y="19994" width="344" height="82" as="geometry" />
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-224" value="&lt;div&gt;权限组使用逻辑&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、权限组在&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;控制台&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;基本信息维护&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;2、数据权限组授权-权限主体为库或表&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;3、资源权限组授权-权限主体为计算资源ID&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;4、数据权限组在安全中心，会将权限组的成员、权限明显同步至Ranger实现授权&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;5、资源权限组仅在安全中心存储用户、权限关系，用于控制台获取有权限资源的依据。(&lt;font color=&quot;#660000&quot;&gt;&lt;b&gt;此逻辑理论上也可以在控制台自行维护，在安全中心维护反而会带来查询逻辑的加重，对于安全中心也没有其他用途&lt;/b&gt;&lt;/font&gt;)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=24;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="-7808" y="19837" width="1367" height="239" as="geometry" />
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-292" value="" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-7736.25" y="21550.49" width="823.25" height="217" as="geometry" />
+          <mxGeometry x="-7736.25" y="21550.49" width="823.25" height="183.51" as="geometry" />
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-293" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="-7739" y="21143" width="1560" height="404" as="geometry" />
@@ -8473,13 +8473,13 @@
           <mxGeometry x="-7819" y="21143.49" width="80" height="404.51" as="geometry" />
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-339" value="安全中心" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-7819" y="21548" width="80" height="217" as="geometry" />
+          <mxGeometry x="-7819" y="21548" width="80" height="185" as="geometry" />
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-354" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-6911.12" y="21546" width="656" height="219" as="geometry" />
+          <mxGeometry x="-6911.12" y="21546" width="656" height="189" as="geometry" />
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-355" value="tdwhelper&lt;div&gt;运维中心&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-6257" y="21545" width="80" height="219" as="geometry" />
+          <mxGeometry x="-6257" y="21545" width="80" height="191" as="geometry" />
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-358" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-7632.5" y="21594" width="292" height="105.87" as="geometry" />
@@ -8651,6 +8651,9 @@
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-463" value="库名xx3" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-7177.5" y="20737" width="36.5" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-465" value="&lt;div&gt;用户有权限的资源列表&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、通过资源权限组授权的资源ID，拿到资源明显&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;2、通过用户加入的应用组，调运维接口拿到应用组下的计算资源&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;3、1和2取并集且去重&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=24;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="-7819" y="21012" width="765" height="135.26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
