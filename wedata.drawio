@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T07:26:30.768Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ohSJVEgOp3lz09w00hMH" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:29:44.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="jjzbkRHvj9mqJV9Ci5li" version="24.6.4" type="github" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
     <mxGraphModel dx="16506" dy="10035" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -7598,7 +7598,7 @@
         <mxCell id="OHHX2gl_NOo13GqqHWvg-17" value="存储资源管理" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-7921.5" y="15163" width="75" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="OHHX2gl_NOo13GqqHWvg-18" value="用户组管理" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="OHHX2gl_NOo13GqqHWvg-18" value="权限组管理" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-8107.5" y="15204" width="75" height="29" as="geometry" />
         </mxCell>
         <mxCell id="OHHX2gl_NOo13GqqHWvg-19" value="成员管理" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;" parent="1" vertex="1">
