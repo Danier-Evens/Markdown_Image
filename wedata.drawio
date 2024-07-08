@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T07:29:44.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="jjzbkRHvj9mqJV9Ci5li" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-08T11:15:34.132Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="oUkTlZeK3vTtl0O34fd2" version="24.6.4" type="github" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="16506" dy="10035" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="17377" dy="10592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8259,13 +8259,13 @@
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-157" value="绑定应用组组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-6890.25" y="20127" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-158" value="计算资源&lt;div&gt;id: 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-158" value="计算资源&lt;div&gt;id: 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="-7021" y="20189" width="54" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-159" value="计算资源&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;12&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-159" value="计算资源&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;12&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="-6955" y="20191" width="54" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-160" value="计算资源&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;21&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-160" value="计算资源&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;21&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="-6890.25" y="20190" width="54" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-161" value="计算资源&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
@@ -8634,13 +8634,13 @@
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-451" value="3.3 使用运维接口获取资源明显" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000066;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-6449" y="21442.49" width="169" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-457" value="资源id&lt;div&gt;11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-457" value="资源id&lt;div&gt;11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="-6984" y="20743.37" width="36.5" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-458" value="资源id&lt;div&gt;12&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-458" value="资源id&lt;div&gt;12&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="-6942.25" y="20743.37" width="36.5" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-459" value="资源id&lt;div&gt;21&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-459" value="资源id&lt;div&gt;21&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="-6900.5" y="20743.37" width="36.5" height="29" as="geometry" />
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-461" value="库名xx1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
