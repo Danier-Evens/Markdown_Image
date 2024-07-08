@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T01:44:15.757Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Qs-6I1qG6VohsXRd2eEf" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:26:30.768Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ohSJVEgOp3lz09w00hMH" version="24.6.4" type="github" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="17209" dy="10485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="16506" dy="10035" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7569,13 +7569,13 @@
           <mxGeometry x="-7760" y="15100" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OHHX2gl_NOo13GqqHWvg-7" value="Plusar消息队列" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=none;gradientColor=#d5739d;" parent="1" vertex="1">
-          <mxGeometry x="-7752" y="15137.5" width="92" height="28" as="geometry" />
+          <mxGeometry x="-7752" y="15137.5" width="92" height="21.5" as="geometry" />
         </mxCell>
         <mxCell id="OHHX2gl_NOo13GqqHWvg-8" value="WEB" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="-8310" y="14901" width="287" height="59" as="geometry" />
         </mxCell>
         <mxCell id="OHHX2gl_NOo13GqqHWvg-9" value="Rest Api" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;gradientColor=#97d077;" parent="1" vertex="1">
-          <mxGeometry x="-7751" y="15230" width="91" height="28" as="geometry" />
+          <mxGeometry x="-7751" y="15207.5" width="91" height="21.5" as="geometry" />
         </mxCell>
         <mxCell id="OHHX2gl_NOo13GqqHWvg-10" value="Kong (负载均衡、路由重写)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="-8310" y="15006" width="289" height="41" as="geometry" />
@@ -7668,7 +7668,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OHHX2gl_NOo13GqqHWvg-59" value="Feign Sdk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=none;gradientColor=#d5739d;" parent="1" vertex="1">
-          <mxGeometry x="-7752" y="15178" width="92" height="28" as="geometry" />
+          <mxGeometry x="-7752" y="15172" width="92" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OHHX2gl_NOo13GqqHWvg-65" value="Openapi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="-7943" y="14901" width="287" height="59" as="geometry" />
@@ -8654,6 +8654,12 @@
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-465" value="&lt;div&gt;用户有权限的资源列表&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、通过资源权限组授权的资源ID，拿到资源明显&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;2、通过用户加入的应用组，调运维接口拿到应用组下的计算资源&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;3、1和2取并集且去重&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=24;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="-7819" y="21012" width="765" height="135.26" as="geometry" />
+        </mxCell>
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-468" value="JDBC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="-7751" y="15242" width="91" height="21.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-469" value="运维DB" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-7463" y="15395" width="81" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
