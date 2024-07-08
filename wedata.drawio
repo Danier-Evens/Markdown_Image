@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T15:36:45.451Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="DxhzhsAPOD-27XTgoQI-" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-08T01:19:56.842Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="VL-Te-M-Ut3Uc-ntldjD" version="24.6.4" type="github" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="17812" dy="10870" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="16941" dy="10313" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8553,10 +8553,10 @@
             <mxPoint x="-7047" y="20994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-424" value="资源ID列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-424" value="有权限的资源ID列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="-6824" y="21309.49" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-426" value="应用组列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-426" value="有权限的应用组列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="-6449" y="21309.49" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-428" value="计算资源&lt;div&gt;22&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
