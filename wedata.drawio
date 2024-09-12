@@ -9099,7 +9099,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1rs5BHqyEppMaaHkNV4-50" value="Gaia集群 / 峰峦K8s" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-50" value="&lt;span style=&quot;font-size: 10px; text-wrap: nowrap;&quot;&gt;Yarn&lt;/span&gt;集群 / k8s集群" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-15155.5" y="-9626" width="1064" height="86" as="geometry" />
         </mxCell>
         <mxCell id="q1rs5BHqyEppMaaHkNV4-51" value="yarn队列配额维护" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -9126,7 +9126,7 @@
             <mxPoint x="-14554.5" y="-9876" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1rs5BHqyEppMaaHkNV4-60" value="Gaia运维2分钟周期&lt;div style=&quot;font-size: 10px;&quot;&gt;定时更新Gaia集群队列配置&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="q1rs5BHqyEppMaaHkNV4-58">
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-60" value="Yarn运维2分钟周期&lt;div style=&quot;font-size: 10px;&quot;&gt;定时更新Gaia集群队列配置&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="q1rs5BHqyEppMaaHkNV4-58">
           <mxGeometry x="-0.0318" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="10" as="offset" />
           </mxGeometry>
@@ -9163,7 +9163,7 @@
             <mxPoint x="-14554" y="-9998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1rs5BHqyEppMaaHkNV4-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1rs5BHqyEppMaaHkNV4-62" target="q1rs5BHqyEppMaaHkNV4-45">
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1rs5BHqyEppMaaHkNV4-62" target="q1rs5BHqyEppMaaHkNV4-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-14604" y="-9892" as="sourcePoint" />
             <mxPoint x="-14554" y="-9942" as="targetPoint" />
@@ -9171,7 +9171,7 @@
         </mxCell>
         <mxCell id="q1rs5BHqyEppMaaHkNV4-74" value="资源申请\调配api&lt;div style=&quot;font-size: 10px;&quot;&gt;(k8s类型资源)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="q1rs5BHqyEppMaaHkNV4-66">
           <mxGeometry x="-0.0031" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-7" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q1rs5BHqyEppMaaHkNV4-67" value="创建namespace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -9186,12 +9186,12 @@
         <mxCell id="q1rs5BHqyEppMaaHkNV4-73" value="创建ClusterRole Binding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-14305.5" y="-9721" width="123" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="q1rs5BHqyEppMaaHkNV4-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1rs5BHqyEppMaaHkNV4-62" target="q1rs5BHqyEppMaaHkNV4-41">
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1rs5BHqyEppMaaHkNV4-62" target="q1rs5BHqyEppMaaHkNV4-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-14604" y="-9913" as="sourcePoint" />
             <mxPoint x="-14554" y="-9963" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-14453" y="-9961" />
+              <mxPoint x="-14397" y="-9980" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -9251,7 +9251,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1rs5BHqyEppMaaHkNV4-95" value="导入物理集群配置&lt;div style=&quot;font-size: 10px;&quot;&gt;(Gaia/K8s)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="q1rs5BHqyEppMaaHkNV4-94">
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-95" value="导入物理集群配置&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(&lt;/span&gt;Yarn&amp;nbsp;&lt;span style=&quot;font-size: 10px;&quot;&gt;/&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap;&quot;&gt;k8s&lt;/span&gt;)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="q1rs5BHqyEppMaaHkNV4-94">
           <mxGeometry x="-0.042" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -9265,7 +9265,7 @@
             <mxPoint x="-14521.5" y="-10052" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1rs5BHqyEppMaaHkNV4-100" value="更新峰峦集群队列配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="q1rs5BHqyEppMaaHkNV4-99">
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-100" value="更新k8s群队列配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="q1rs5BHqyEppMaaHkNV4-99">
           <mxGeometry x="-0.0989" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
