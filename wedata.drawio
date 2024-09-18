@@ -9675,7 +9675,7 @@
         <mxCell id="q1rs5BHqyEppMaaHkNV4-330" value="权限明细" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-9207.5" y="21973.18" width="120" height="41.63" as="geometry" />
         </mxCell>
-        <mxCell id="q1rs5BHqyEppMaaHkNV4-331" value="用户组-01" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-331" value="用户组-02" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-9273" y="22046.81" width="123" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q1rs5BHqyEppMaaHkNV4-332" value="库名xx1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
