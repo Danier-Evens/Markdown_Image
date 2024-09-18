@@ -8628,7 +8628,7 @@
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-449" value="3.2&amp;nbsp; 来源于绑定应用组&lt;div&gt;使用运维接口获取明细&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000066;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-6708.5" y="21439.49" width="169" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-451" value="3.3 使用运维接口获取资源明显" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000066;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="uScTnFP0f5Nrk5QbJLDZ-451" value="3.3 使用运维接口获取资源明细" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000066;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-6449" y="21442.49" width="169" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uScTnFP0f5Nrk5QbJLDZ-457" value="资源id&lt;div&gt;11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;" parent="1" vertex="1">
