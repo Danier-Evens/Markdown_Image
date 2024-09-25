@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="22497" dy="13071" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="21587" dy="12567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10267,13 +10267,13 @@
             <mxPoint x="-16975" y="21666" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1rs5BHqyEppMaaHkNV4-655" value="1.获取可用资源(选其一即可)&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;a.全托管模式&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;b.已绑定应用组实时资源&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;2.返回OC集群ID&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-655" value="1.获取可用资源(选其一即可)&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;a.全托管模式&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;b.已绑定应用组实时资源&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;2.返回OC集群ID、应用组&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-16620.5" y="21580.17" width="175" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="q1rs5BHqyEppMaaHkNV4-656" value="1.获取可用资源方式:&lt;span style=&quot;background-color: initial;&quot;&gt;全托管模式&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;2.返回OC集群ID&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-656" value="1.获取可用资源方式:&lt;span style=&quot;background-color: initial;&quot;&gt;全托管模式&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;2.返回OC集群ID&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;、应用组&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-17062" y="21586.739999999998" width="187" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="q1rs5BHqyEppMaaHkNV4-657" value="1.获取可用资源方式:&lt;span style=&quot;background-color: initial;&quot;&gt;全托管模式&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;2.返回OC集群ID&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-657" value="1.获取可用资源方式:&lt;span style=&quot;background-color: initial;&quot;&gt;全托管模式&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;2.返回OC集群ID&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;、应用组&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-16855" y="21590.67" width="187" height="41" as="geometry" />
         </mxCell>
         <mxCell id="q1rs5BHqyEppMaaHkNV4-660" value="wedata项目a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
@@ -10338,6 +10338,19 @@
             <mxPoint x="-16312" y="22547" as="sourcePoint" />
             <mxPoint x="-16773" y="22184" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-705" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1rs5BHqyEppMaaHkNV4-643" target="q1rs5BHqyEppMaaHkNV4-621">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-16419" y="22077" as="sourcePoint" />
+            <mxPoint x="-16369" y="22027" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-16225" y="21524" />
+              <mxPoint x="-16225" y="22364" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1rs5BHqyEppMaaHkNV4-706" value="提交任务&lt;div&gt;1.OC集群ID、应用组、资源需求量&lt;/div&gt;&lt;div&gt;2.文件、函数、库表元数据&lt;/div&gt;&lt;div&gt;3. ....&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-16256" y="21582.5" width="202" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
