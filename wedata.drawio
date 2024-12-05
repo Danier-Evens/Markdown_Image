@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="22068" dy="12390" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="22387" dy="12567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10466,7 +10466,7 @@
             <mxPoint x="-19082.5" y="22248.51" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wlIXH94sqNUsOUKoeSA4-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wlIXH94sqNUsOUKoeSA4-2" target="wlIXH94sqNUsOUKoeSA4-11">
+        <mxCell id="wlIXH94sqNUsOUKoeSA4-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wlIXH94sqNUsOUKoeSA4-80" target="wlIXH94sqNUsOUKoeSA4-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-18574.5" y="22120.51" as="sourcePoint" />
             <mxPoint x="-18801.5" y="22192.51" as="targetPoint" />
@@ -10478,7 +10478,7 @@
             <mxPoint x="12" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wlIXH94sqNUsOUKoeSA4-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wlIXH94sqNUsOUKoeSA4-2" target="wlIXH94sqNUsOUKoeSA4-13">
+        <mxCell id="wlIXH94sqNUsOUKoeSA4-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wlIXH94sqNUsOUKoeSA4-80" target="wlIXH94sqNUsOUKoeSA4-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-19037.5" y="22240.51" as="sourcePoint" />
             <mxPoint x="-18377.5" y="22184.51" as="targetPoint" />
@@ -10698,6 +10698,18 @@
         </mxCell>
         <mxCell id="wlIXH94sqNUsOUKoeSA4-87" value="提交任务&lt;div&gt;1.OC集群ID、应用组、资源需求量&lt;/div&gt;&lt;div&gt;2.文件、函数、库表元数据&lt;/div&gt;&lt;div&gt;3. ....&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-17853.5" y="21598.01" width="202" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wlIXH94sqNUsOUKoeSA4-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wlIXH94sqNUsOUKoeSA4-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-18542" y="22045" as="sourcePoint" />
+            <mxPoint x="-18455" y="22296" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wlIXH94sqNUsOUKoeSA4-89" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;资源申请\调配api&lt;/span&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(yarn类型资源)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wlIXH94sqNUsOUKoeSA4-88">
+          <mxGeometry x="-0.0166" y="-6" relative="1" as="geometry">
+            <mxPoint x="-19" y="-28" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
