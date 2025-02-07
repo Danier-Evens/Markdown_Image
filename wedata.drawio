@@ -10717,7 +10717,7 @@
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-4" value="数据研发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-16936" y="24380" width="108" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m6vA0d0WMrxqQIU1UzHz-6" value="数据集成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m6vA0d0WMrxqQIU1UzHz-6" value="数据接入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-16783" y="24378" width="108" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-7" value="web前台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -10777,7 +10777,7 @@
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-37" value="数据研发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-16950.5" y="24742" width="108" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m6vA0d0WMrxqQIU1UzHz-38" value="数据集成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m6vA0d0WMrxqQIU1UzHz-38" value="数据接入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-16797.5" y="24740" width="108" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-39" value="web前台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -10864,7 +10864,7 @@
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-60" value="数据研发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-17611" y="25116" width="108" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m6vA0d0WMrxqQIU1UzHz-61" value="数据集成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m6vA0d0WMrxqQIU1UzHz-61" value="数据接入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-17463.5" y="25116" width="108" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-62" value="web前台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
