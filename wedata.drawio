@@ -10849,8 +10849,8 @@
             <mxPoint x="-17170" y="24731" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m6vA0d0WMrxqQIU1UzHz-56" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;双写&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-17190" y="24866" width="34" height="26" as="geometry" />
+        <mxCell id="m6vA0d0WMrxqQIU1UzHz-56" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;调api双写&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-17199" y="24866" width="53" height="26" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-57" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;数据源CRUD变更消息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-17479" y="24866" width="97" height="26" as="geometry" />
