@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="21112" dy="11860" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="21249" dy="11936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11049,6 +11049,78 @@
         </mxCell>
         <mxCell id="RFS-QfK69qg3QvAto1pz-21" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;查询tdw/iceberg数据源库表元数据&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-17409" y="25290" width="139" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-26" value="元数据&lt;div&gt;hybris&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18796.5" y="24809" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-27" value="数据研发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18910" y="24649" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-28" value="数据接入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18652.5" y="24652" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-29" value="OMS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-19079" y="24963" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-30" value="DLA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18874.5" y="24963" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-31" value="JDBC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18678" y="24966" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-32" value="ES Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18477.5" y="24966" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFS-QfK69qg3QvAto1pz-27" target="RFS-QfK69qg3QvAto1pz-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-18194" y="25015" as="sourcePoint" />
+            <mxPoint x="-18144" y="24965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFS-QfK69qg3QvAto1pz-28" target="RFS-QfK69qg3QvAto1pz-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-18194" y="25015" as="sourcePoint" />
+            <mxPoint x="-18144" y="24965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFS-QfK69qg3QvAto1pz-26" target="RFS-QfK69qg3QvAto1pz-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-18194" y="25015" as="sourcePoint" />
+            <mxPoint x="-18144" y="24965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFS-QfK69qg3QvAto1pz-26" target="RFS-QfK69qg3QvAto1pz-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-18194" y="25015" as="sourcePoint" />
+            <mxPoint x="-18144" y="24965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFS-QfK69qg3QvAto1pz-26" target="RFS-QfK69qg3QvAto1pz-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-18194" y="25015" as="sourcePoint" />
+            <mxPoint x="-18144" y="24965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFS-QfK69qg3QvAto1pz-26" target="RFS-QfK69qg3QvAto1pz-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-18194" y="25015" as="sourcePoint" />
+            <mxPoint x="-18144" y="24965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-40" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;tdw&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;(hive thive)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-18907" y="24879" width="57" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-41" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;iceberg&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-18798" y="24886.5" width="44" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-42" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;mysq、ck、pg、hudi、sr&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-18724.5" y="24886.5" width="108" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-43" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;es&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-18548" y="24886.5" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-44" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;获取不同类型数据源库、表&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-18776" y="24726" width="114" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
