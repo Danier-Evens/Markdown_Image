@@ -10828,8 +10828,8 @@
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-48" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;订阅数据源变更消息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-16819.5" y="24829" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="m6vA0d0WMrxqQIU1UzHz-49" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;feign api请求获取数据源&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-17002" y="24816" width="104" height="26" as="geometry" />
+        <mxCell id="m6vA0d0WMrxqQIU1UzHz-49" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;1.&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;获取项目下数据源列表&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2.获取数据源下的库、表类数据&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-17014" y="24809" width="129" height="41" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-50" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;数据源CRUD&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-17199" y="24803" width="65" height="26" as="geometry" />
@@ -10859,7 +10859,7 @@
           <mxGeometry x="-17359" y="25241" width="144" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-59" value="元数据&lt;div&gt;hybris&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-17093.5" y="25241" width="144" height="40" as="geometry" />
+          <mxGeometry x="-16921" y="25241" width="144" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-60" value="数据研发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-17611" y="25116" width="108" height="40" as="geometry" />
@@ -10903,17 +10903,11 @@
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-71" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;订阅数据源变更消息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-17565.5" y="25193" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="m6vA0d0WMrxqQIU1UzHz-72" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;feign api请求获取数据源&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-17417.5" y="25193" width="104" height="26" as="geometry" />
+        <mxCell id="m6vA0d0WMrxqQIU1UzHz-72" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;获取项目下数据源列表&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-17414.5" y="25193" width="98" height="26" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-73" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;数据源CRUD&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-17292.5" y="25176" width="65" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="m6vA0d0WMrxqQIU1UzHz-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="m6vA0d0WMrxqQIU1UzHz-58" target="m6vA0d0WMrxqQIU1UzHz-59" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-17210.5" y="25334" as="sourcePoint" />
-            <mxPoint x="-17089" y="25334" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="-17306.5" y="25177" width="65" height="26" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-75" value="控制台pulsar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-17611" y="25241" width="144" height="40" as="geometry" />
@@ -10924,20 +10918,14 @@
             <mxPoint x="-17152" y="25103" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m6vA0d0WMrxqQIU1UzHz-77" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;去掉双写&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-17182.5" y="25233" width="50" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-78" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;数据源CRUD变更消息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-17461" y="25238" width="97" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="m6vA0d0WMrxqQIU1UzHz-89" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="-17167.5" y="25252" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-92" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;数据源CRUD&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-17078" y="24451" width="65" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="m6vA0d0WMrxqQIU1UzHz-93" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;feign api请求获取数据源&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-16980" y="24455" width="104" height="26" as="geometry" />
+        <mxCell id="m6vA0d0WMrxqQIU1UzHz-93" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;1.&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;获取项目下数据源列表&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2.获取数据源下的库、表类数据&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-16988" y="24448" width="129" height="41" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-94" value="现状" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-16528" y="24440" width="58" height="36" as="geometry" />
@@ -10946,7 +10934,7 @@
           <mxGeometry x="-16528" y="24811" width="58" height="36" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-96" value="终态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="-16522.5" y="25134" width="58" height="36" as="geometry" />
+          <mxGeometry x="-16362" y="25134" width="58" height="36" as="geometry" />
         </mxCell>
         <mxCell id="m6vA0d0WMrxqQIU1UzHz-97" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -11007,48 +10995,6 @@
             <mxPoint x="-16965" y="24811" as="sourcePoint" />
             <mxPoint x="-16915" y="24761" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-12" value="OMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-17549.5" y="24957" width="144" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-13" value="DLA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-17371.5" y="24957" width="144" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="m6vA0d0WMrxqQIU1UzHz-35" target="RFS-QfK69qg3QvAto1pz-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-16965" y="24811" as="sourcePoint" />
-            <mxPoint x="-16915" y="24761" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="m6vA0d0WMrxqQIU1UzHz-35" target="RFS-QfK69qg3QvAto1pz-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-16965" y="24811" as="sourcePoint" />
-            <mxPoint x="-16915" y="24761" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-16" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;查询tdw/iceberg数据源库表元数据&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-17427" y="24920" width="139" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-17" value="OMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-17537" y="25325" width="144" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-18" value="DLA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-17359" y="25325" width="144" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="m6vA0d0WMrxqQIU1UzHz-58" target="RFS-QfK69qg3QvAto1pz-17">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-16965" y="25079" as="sourcePoint" />
-            <mxPoint x="-16915" y="25029" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="m6vA0d0WMrxqQIU1UzHz-58" target="RFS-QfK69qg3QvAto1pz-18">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-16965" y="25079" as="sourcePoint" />
-            <mxPoint x="-16915" y="25029" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-21" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;查询tdw/iceberg数据源库表元数据&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-17409" y="25290" width="139" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RFS-QfK69qg3QvAto1pz-26" value="元数据&lt;div&gt;hybris&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-18796.5" y="24809" width="144" height="40" as="geometry" />
@@ -11121,6 +11067,84 @@
         </mxCell>
         <mxCell id="RFS-QfK69qg3QvAto1pz-44" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;获取不同类型数据源库、表&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-18776" y="24726" width="114" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6vA0d0WMrxqQIU1UzHz-59" target="m6vA0d0WMrxqQIU1UzHz-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-17344" y="25071" as="sourcePoint" />
+            <mxPoint x="-17294" y="25021" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-46" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;用户数据源，基础信息依赖控制台接口获取&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-17141.5" y="25235" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-47" value="数据研发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-17008" y="25116" width="108" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-48" value="数据接入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-16822.5" y="25116" width="108" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFS-QfK69qg3QvAto1pz-47" target="m6vA0d0WMrxqQIU1UzHz-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-17344" y="24975" as="sourcePoint" />
+            <mxPoint x="-17294" y="24925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFS-QfK69qg3QvAto1pz-48" target="m6vA0d0WMrxqQIU1UzHz-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-17344" y="24975" as="sourcePoint" />
+            <mxPoint x="-17294" y="24925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;获取数据源下的库、表类数据&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-16910" y="25179" width="122" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-54" value="OMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-17108.5" y="25322" width="108" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-55" value="DLA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-16931" y="25322" width="108" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6vA0d0WMrxqQIU1UzHz-59" target="RFS-QfK69qg3QvAto1pz-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-17344" y="25061" as="sourcePoint" />
+            <mxPoint x="-17294" y="25011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6vA0d0WMrxqQIU1UzHz-59" target="RFS-QfK69qg3QvAto1pz-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-17344" y="25061" as="sourcePoint" />
+            <mxPoint x="-17294" y="25011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-58" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;tdw (&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;hive thive&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-17011" y="25284" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-59" value="JDBC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-16763" y="25322" width="108" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-60" value="ES Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-16598" y="25319" width="108" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-61" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;iceberg&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-16882.5" y="25289" width="44" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-66" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;mysql、ck、pg、hudi、sr&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-16815.5" y="25293" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-67" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;es&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-16636" y="25289" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6vA0d0WMrxqQIU1UzHz-59" target="RFS-QfK69qg3QvAto1pz-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-17177" y="24983" as="sourcePoint" />
+            <mxPoint x="-17127" y="24933" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFS-QfK69qg3QvAto1pz-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m6vA0d0WMrxqQIU1UzHz-59" target="RFS-QfK69qg3QvAto1pz-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-17177" y="24983" as="sourcePoint" />
+            <mxPoint x="-17127" y="24933" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
