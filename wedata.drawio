@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="23302" dy="12656" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="25730" dy="14975" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11148,12 +11148,6 @@
             <mxPoint x="-17177" y="24983" as="sourcePoint" />
             <mxPoint x="-17127" y="24933" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-135" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20280" y="19846.58" width="412" height="513.62" as="geometry" />
-        </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-136" value="控制台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-20101" y="19855.000000000004" width="54" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RFS-QfK69qg3QvAto1pz-142" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-17322" y="19704" width="859" height="345" as="geometry" />
