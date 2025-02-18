@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14" pages="2">
   <diagram name="第 1 页" id="rSITWLfSeUWYuQN2Bznp">
-    <mxGraphModel dx="22049" dy="11936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="22607" dy="12245" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11318,8 +11318,8 @@
         <mxCell id="RFS-QfK69qg3QvAto1pz-296" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="-17918.75" y="19909.51" width="227.5" height="82.49" as="geometry" />
         </mxCell>
-        <mxCell id="RFS-QfK69qg3QvAto1pz-297" value="离线计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-17800.75" y="19937.51" width="100" height="26" as="geometry" />
+        <mxCell id="RFS-QfK69qg3QvAto1pz-297" value="离线计算&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;(支持yarn)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-17800.75" y="19934" width="100" height="33.51" as="geometry" />
         </mxCell>
         <mxCell id="RFS-QfK69qg3QvAto1pz-298" value="按配额申请" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="-17903.75" y="19938.51" width="72" height="26" as="geometry" />
@@ -11734,8 +11734,8 @@
         <mxCell id="zcu6EvK54BSxI-3BF2P--7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-17642" y="19911.51" width="227.5" height="82.49" as="geometry" />
         </mxCell>
-        <mxCell id="zcu6EvK54BSxI-3BF2P--8" value="离线补录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-17524" y="19939.51" width="100" height="26" as="geometry" />
+        <mxCell id="zcu6EvK54BSxI-3BF2P--8" value="离线补录&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 8px;&quot;&gt;(支持yarn)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-17524" y="19939.51" width="100" height="31.49" as="geometry" />
         </mxCell>
         <mxCell id="zcu6EvK54BSxI-3BF2P--9" value="临时资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-17627" y="19940.51" width="72" height="26" as="geometry" />
