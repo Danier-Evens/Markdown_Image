@@ -11656,7 +11656,7 @@
         <mxCell id="521N_zGzMKRHWqE_6MS2-51" value="控制台" style="swimlane;startSize=20;" vertex="1" parent="521N_zGzMKRHWqE_6MS2-40">
           <mxGeometry x="241" width="220" height="480" as="geometry" />
         </mxCell>
-        <UserObject label="获取ray集群权限" treeRoot="1" id="521N_zGzMKRHWqE_6MS2-67">
+        <UserObject label="获取有权限的ray集群列表" treeRoot="1" id="521N_zGzMKRHWqE_6MS2-67">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="521N_zGzMKRHWqE_6MS2-51">
             <mxGeometry x="47" y="123.00000000000072" width="134" height="45" as="geometry" />
           </mxCell>
