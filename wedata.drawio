@@ -12716,7 +12716,7 @@
         <mxCell id="imz_ixoLCXN0mdQS2rU9-65" value="脚本箱工具&lt;div&gt;(运维)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-23093" y="-11185.25" width="65" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="imz_ixoLCXN0mdQS2rU9-70" value="thive" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="imz_ixoLCXN0mdQS2rU9-70" value="livy" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-23188" y="-11185.75" width="65" height="46" as="geometry" />
         </mxCell>
         <mxCell id="imz_ixoLCXN0mdQS2rU9-71" value="人工操作&lt;div&gt;(运维)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -12755,7 +12755,7 @@
         <mxCell id="imz_ixoLCXN0mdQS2rU9-79" value="ups和globak库现有依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-23297" y="-11300" width="145" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="imz_ixoLCXN0mdQS2rU9-80" value="thive" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="imz_ixoLCXN0mdQS2rU9-80" value="livy" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-23953" y="-11198.75" width="53.5" height="46" as="geometry" />
         </mxCell>
         <mxCell id="imz_ixoLCXN0mdQS2rU9-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="imz_ixoLCXN0mdQS2rU9-80" target="Njg7tLmegmaF0kb1FaFb-137">
@@ -12767,7 +12767,7 @@
         <mxCell id="imz_ixoLCXN0mdQS2rU9-82" value="阶段一" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-24054" y="-11300" width="54" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="imz_ixoLCXN0mdQS2rU9-113" value="thive" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="imz_ixoLCXN0mdQS2rU9-113" value="livy" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-21766.5" y="-11264.75" width="53.5" height="46" as="geometry" />
         </mxCell>
         <mxCell id="imz_ixoLCXN0mdQS2rU9-114" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="imz_ixoLCXN0mdQS2rU9-113" target="Njg7tLmegmaF0kb1FaFb-178">
